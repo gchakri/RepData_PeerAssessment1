@@ -1,11 +1,4 @@
----
-title: "Reprodiciable Research Week 2 Project"
-author: "Chakri"
-date: "March 5, 2017"
-output:
-    html_document: default  
-    md_document: default
----
+# Reprodiciable Research Week 2 Project"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -142,4 +135,4 @@ ggplot(AvgByImputed_imp,aes(x=interval,y=steps,colour=DayOfWeek)) + geom_line() 
 
 Notice that there is some difference between average steps for each interval on weekdays and weekends. On weekends this individual has moved more during the day than on weekdays. However, on the weekdays this person made more steps during early hours of the day, comparing to weekends.
 
-## ======== End of the Project ============
+## ======== End of the Project ============  
